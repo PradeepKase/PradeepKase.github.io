@@ -53,13 +53,13 @@ footer {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin-right: -50px;
+  /* margin-right: -50px;
   margin-left: 76px;
   margin-right: -12px;
-  margin-left: 16px;
+  margin-left: 16px; */
 }
 .serv-content{
-  margin-right: -50px;
+  /* margin-right: -50px; */
 }
 
 section{
@@ -90,7 +90,7 @@ section .title::after {
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color: rgb(20,180,220);
+  color:#39dd34;
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -99,12 +99,12 @@ section .title::after {
 /* navbar styling */
 .navbar {
   position: fixed;
-  width: 85%;
+  width: 100%;
   z-index: 999;
-  padding: 30px 0;
+  /* padding: 30px 0; */
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
-  margin-left: 107px;
+  /* margin-left: 107px; */
 }
 .navbar.sticky {
   padding: 15px 0;
@@ -145,7 +145,7 @@ section .title::after {
   transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-  color: rgb(20,180,220);
+  color: #39dd34;
 }
 
 
@@ -205,8 +205,8 @@ section .title::after {
   background-size: cover;
   background-attachment: fixed;
   font-family: "Ubuntu", sans-serif;
-  margin-left: 107px;
-  margin-right: 96px;
+  /* margin-left: 107px;
+  margin-right: 96px; */
 }
 .home .max-width {
   width: 100%;
@@ -270,8 +270,8 @@ background-position: 0 0,10px 10px; */
 opacity: 0.3; */
 background-image: radial-gradient(#ca0951 0.5px, #fff 0.5px);
 background-size: 10px 10px;
-margin-left: 107px;
-margin-right: 96px;
+/* margin-left: 107px;
+margin-right: 96px; */
 
 
 
@@ -334,8 +334,8 @@ margin-right: 96px;
 .project {
   color: #fff;
   background: #111;
-  margin-left: 107px;
-  margin-right: 96px;
+  /* margin-left: 107px;
+  margin-right: 96px; */
 }
 .services .title::before,
 .project .title::before {
@@ -355,8 +355,8 @@ margin-right: 96px;
   padding: 50px 25px;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-left: -60px;
-    margin-right: 60px;
+  /* margin-left: -60px;
+    margin-right: 60px; */
 }
 .services .serv-content .card:hover {
   /* background: rgb(20,180,220); */
@@ -908,8 +908,8 @@ footer span a:hover {
   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
   grid-gap: 40px;
   margin-top: 50px;
-  margin-left: 66px;
-  margin-right: 56px;
+  /* margin-left: 66px;
+  margin-right: 56px; */
 }
 .skills-list div{
   background : #E0E0E0;
@@ -1061,7 +1061,7 @@ footer span a:hover {
   }
 
   .box7{
-    width: 579px;
+    width: 600px;
     margin: auto;
       display: grid;
       grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
@@ -1071,7 +1071,15 @@ footer span a:hover {
       text-align: center;
       align-items: center;
   }
-[10:23 pm, 27/09/2022] sujeet Bhai: <div class="calendar">
+
+  /* .calendar{ */
+    /* width: 84.5%; */
+    /* margin-left:12px; */
+  /* } */
+
+
+
+/* [10:23 pm, 27/09/2022] Pradeep kase: <div class="calendar">
 
     <!-- this is the div where your calander will apear -->
 
@@ -1203,4 +1211,5 @@ footer span a:hover {
 
 
 
-</div>
+</div> */
+
